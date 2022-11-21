@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livro JS - Capítulo 01 - Exercício C</title>
+</head>
+
+<body>
+    <script>
+        let vlCompra = Number(prompt("Qual o preço do produto?"))
+        let aVista = vlCompra - (vlCompra * 0.10)
+        let parcelamento = vlCompra / 3
+        alert("Valor do Produto R$" + vlCompra + "\n Pagamento à vista R$ " + aVista + "\n Pagamento em 3x de R$ " + parcelamento.toFixed(2))
+    </script>
+</body>
+
+</html>

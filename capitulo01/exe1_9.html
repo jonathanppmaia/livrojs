@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livro JS - Exercício 09</title>
+</head>
+
+<body>
+    <script>
+        //Lê o Valor do Jantar
+        let jantar = Number(prompt("Informe o Valor do Jantar R$: "))
+        //Calcular a taxa do Serviço
+        let txGarcom = jantar * 0.10
+        // Valor do jantar + taxa de serviço
+        let total = jantar + txGarcom
+        alert("Valor do Jantar: R$" + jantar + "\n Valor da Taxa (10%): R$" + txGarcom + "\n Valor Total do Jantar: R$: " + total.toFixed(2)) // let total = jantar * 1.10 ou let total = jantar + (jantar*0.10)
+    </script>
+</body>
+
+</html>
